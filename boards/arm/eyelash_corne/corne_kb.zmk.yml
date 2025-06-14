@@ -1,6 +1,6 @@
 file_format: "1"
-id: eyelash_corne
-name: Eyelash Corne
+id: corne_kb
+name: Corne
 url: https://github.com/fpweb-git/zmk-corne.git
 type: board
 arch: arm
@@ -13,5 +13,5 @@ outputs:
   - usb
   - ble
 siblings:
-  - eyelash_corne_left
-  - eyelash_corne_right
+  - corne_kb_left
+  - corne_kb_right

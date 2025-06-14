@@ -1,5 +1,5 @@
-identifier: eyelash_corne
-name: Eyelash Corne
+identifier: corne_kb
+name: Corne
 url: https://github.com/fpweb-git/zmk-corne.git
 type: mcu
 arch: arm

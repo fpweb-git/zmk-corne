@@ -1,18 +1,14 @@
 ---
 include:
-#  - board: eyelash_corne_left
-#    shield: nice_view
-#    #snippet: zmk-usb-logging    # Uncomment to log over USB.
-  - board: eyelash_corne_right
+  - board: corne_kb_right
     shield: nice_view
-    #snippet: zmk-usb-logging
-  - board: eyelash_corne_left
+  - board: corne_kb_left
     shield: nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
-  - board: eyelash_corne_left
+    #  reset
+  - board: corne_kb_left
     shield: settings_reset
-    #snippet: zmk-usb-logging
-  - board: eyelash_corne_right
+  - board: corne_kb_right
     shield: settings_reset
  
